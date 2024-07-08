@@ -17,7 +17,7 @@ class StringTests: XCTestCase {
         let result = try modelInfo.extractCameraInformation()
 
         XCTAssertEqual(result.productId, 34068)
-        XCTAssertEqual(result.vendorId, 1452)
+        XCTAssertEqual(result.vendorId, 1453)
     }
 
     func testExtractInvalid() throws {
